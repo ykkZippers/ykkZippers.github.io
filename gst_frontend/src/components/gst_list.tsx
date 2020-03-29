@@ -75,7 +75,7 @@ export default class GSTList extends Component<Props, State> {
     componentDidMount = () => {
         
         console.log("before show list")
-        axios.get('http://localhost:5000/counters/')
+        axios.get('http://54.218.71.105/counters/')
             .then(response => {
                 this.setState({
                     counters: response.data
@@ -93,7 +93,7 @@ export default class GSTList extends Component<Props, State> {
     }
 
     deleteCounter = (id: String) => {
-        axios.delete('http://localhost:5000/counters/' + id)
+        axios.delete('http://54.218.71.105/counters/' + id)
             .then(res => {
                 console.log(res.data);
                 this.setState({
@@ -103,7 +103,7 @@ export default class GSTList extends Component<Props, State> {
     }
 
     addCount = (id: String) => {
-        axios.post('http://localhost:5000/counters/add/' + id)
+        axios.post('http://54.218.71.105/counters/add/' + id)
             .then(res => {
                 console.log(res.data);
                 // update our state
@@ -113,7 +113,7 @@ export default class GSTList extends Component<Props, State> {
     }
 
     subCount = (id: String) => {
-        axios.post('http://localhost:5000/counters/subtract/' + id)
+        axios.post('http://54.218.71.105/counters/subtract/' + id)
             .then(res => {
                 console.log(res.data);
 

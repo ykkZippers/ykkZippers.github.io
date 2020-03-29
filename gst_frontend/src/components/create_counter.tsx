@@ -30,7 +30,7 @@ export default class CreateCounter extends Component<State> {
 
         console.log(counter);
 
-        axios.post('http://localhost:5000/counters/add', counter)
+        axios.post('http://54.218.71.105/counters/add', counter)
             .then(res => {
                 console.log(res.data);
                 //reset username
