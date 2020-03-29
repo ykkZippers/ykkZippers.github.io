@@ -2,7 +2,7 @@
   "name": "gst_frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://RYLiang18.github.io/the_gst",
+  "homepage": "http://ykkZippers.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
