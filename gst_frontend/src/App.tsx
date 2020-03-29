@@ -22,9 +22,9 @@ export default class App extends Component<React.HTMLAttributes<HTMLDivElement>>
             </strong>
           </div>
           <br />
-          <Route path="/the_gst" exact component={GSTList} />
-          <Route path="/the_gst/create" component={CreateCounter} />
-          <Route path="/the_gst/edit/:id" component={EditCounter} />
+          <Route path="/" exact component={GSTList} />
+          <Route path="/create" component={CreateCounter} />
+          <Route path="/edit/:id" component={EditCounter} />
         </div>
       </Router>
     )

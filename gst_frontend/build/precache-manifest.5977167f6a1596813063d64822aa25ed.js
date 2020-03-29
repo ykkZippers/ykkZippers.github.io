@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "974523d2d363cde661b980778976ab85",
+    "revision": "bc2277b42e01e68dd2ed65527b25c20b",
     "url": "/the_gst/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the_gst/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "e88941a5e23518de9813",
+    "revision": "017a82c56d5b3d42d7d1",
     "url": "/the_gst/static/css/main.9551d90a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the_gst/static/js/2.24aa870f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e88941a5e23518de9813",
-    "url": "/the_gst/static/js/main.d56642a9.chunk.js"
+    "revision": "017a82c56d5b3d42d7d1",
+    "url": "/the_gst/static/js/main.fc8ac36a.chunk.js"
   },
   {
     "revision": "335e7d60c6dafa74917e",
