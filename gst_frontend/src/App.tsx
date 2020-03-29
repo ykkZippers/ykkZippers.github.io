@@ -18,7 +18,7 @@ export default class App extends Component<React.HTMLAttributes<HTMLDivElement>>
           <br />
           <div>
             <strong>
-              View source code <a href="https://github.com/RYLiang18/the-gst">here<span role="img" aria-label="react">⚛️</span></a>
+              View source code <a href="https://github.com/RYLiang18/the_gst">here<span role="img" aria-label="react">⚛️</span></a>
             </strong>
           </div>
           <br />
